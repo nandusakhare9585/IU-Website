@@ -1,0 +1,252 @@
+/* Full container */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  overflow: hidden; /* Prevent overflow during animation */
+}
+
+/* Red overlay (initial screen) */
+.redOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #145684; /* Red background */
+  z-index: 100; /* On top of the banner */
+  animation: slideOut 2s ease-in-out forwards; /* Slide left-to-right animation */
+}
+
+/* Animation keyframes for the red overlay */
+@keyframes slideOut {
+  0% {
+    transform: translateX(0); /* Start fully visible */
+  }
+  100% {
+    transform: translateX(100%); /* Slide out to the right */
+  }
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a5008059; /* Adjust the color and opacity */
+  z-index: 1;
+}
+/* Banner section (initially hidden behind the overlay) */
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Content layer */
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensure the video covers the whole background */
+  z-index: -1; /* Place the video behind the content */
+}
+/* Animation keyframes for the banner */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start fully hidden */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.BackgroundBlock {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.BackgroundBlock h1{
+    font-size: 9vw;
+    font-family: Anton, serif;
+    color: #FFF9E0;
+    text-align: center;
+    margin-top: 18%;
+    line-height: 9vw;
+ 
+}
+
+.bulpImg{
+    color: transparent;
+    width: 85%;
+    margin-left: -20%;
+    margin-top: 14%;
+}
+.BackgroundBlock h4{
+    color: white;
+    font-size: 2vw;
+    margin-left: 10%;
+    font-family: Anton, serif;
+}
+.LogoBox img{
+ 
+    width: 30%;
+   
+   
+}
+.LogoBox p{
+   
+    color: #fff;
+    font-size: 3vw;
+    margin-left: 1%;
+    font-family: Anton, serif;
+    /* width: 92%; */
+    MARGIN-TOP: 1%;
+    FONT-WEIGHT: 200;
+   
+}
+.LogoBox{
+    position: absolute;
+    top: 6%;
+    /* width: 5%; */
+    left: 3rem;
+    display: flex;
+    width: 95%;
+}
+
+  .marqueeContainer {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 0; /* Place behind the text */
+}
+  .marquee {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .marquee span {
+    font-size: 10rem;
+    margin-right: 2rem;
+    color: rgba(22, 141, 255, 0.3);
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+
+
+
+
+
+  @media (max-width: 768px) {
+    .BackgroundBlock h1 {
+      font-size: 10vw;
+      margin-top: 25%;
+      line-height: 10vw;
+    }
+  
+    .BackgroundBlock h4 {
+      font-size: 3vw;
+      margin-left: 3%;
+    }
+  
+    .bulpImg {
+      width: 100%;
+      margin-left: 0%;
+      margin-top: 18%;
+    }
+  
+    .LogoBox img {
+      width: 20%;
+    }
+  
+    .LogoBox p {
+      font-size: 2.8vw;
+      margin-top: 3%;
+    }
+  
+    .marquee span {
+      font-size: 6rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+    
+      height: auto; 
+     
+    }
+    .LogoBox {
+      position: relative;
+      top: 6%;
+      left: 3rem;
+      display: flex;
+      width: 100%;
+  }
+  .banner {
+    height: auto;
+    display: flex;
+   
+    position: relative;
+}
+    .BackgroundBlock h1 {
+      font-size: 8vw;
+      margin-top: 0%;
+      line-height: normal;
+  }
+
+  
+    .BackgroundBlock h4 {
+      font-size: 3vw;
+        margin-left: 18%;
+    }
+  
+    .bulpImg {
+      width: 100%;
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+  
+    .LogoBox img {
+      width: 15%;
+    }
+  
+    .LogoBox p {
+      font-size: 3.5vw;
+      margin-top: 4%;
+    }
+  
+    .marquee span {
+      font-size: 4rem;
+    }
+    .LogoBox img {
+      width: 58%;
+      margin-top: 4%;
+  }
+  }
+
+
+
+
+

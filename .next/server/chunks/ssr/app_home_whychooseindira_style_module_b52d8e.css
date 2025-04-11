@@ -1,0 +1,87 @@
+/* [project]/app/home/whychooseindira/style.module.css [app-client] (css) */
+.style-module__gmpUOq__whychooseindiraSection {
+  position: relative;
+  width: 100%;
+  background-color: #145684;
+}
+
+.style-module__gmpUOq__HeadingName {
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__gmpUOq__headingwhychoose {
+  font-size: 25px;
+  font-family: Anton, serif;
+  color: #fff9e0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.style-module__gmpUOq__parawhychoose {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 14px !important;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__gmpUOq__hideclassMob {
+  display: block;
+}
+
+.style-module__gmpUOq__showclassMob {
+  display: none;
+}
+
+@media (width <= 480px) {
+  .style-module__gmpUOq__hideclassMob {
+    display: none;
+  }
+
+  .style-module__gmpUOq__showclassMob {
+    display: block;
+  }
+
+  .style-module__gmpUOq__headingwhychoose {
+    font-size: 16px;
+    font-family: Anton, serif;
+    color: #fff9e0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .style-module__gmpUOq__parawhychoose {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-top: 14px !important;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__gmpUOq__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: normal;
+    margin-bottom: 7%;
+  }
+
+  .style-module__gmpUOq__imgwidth {
+    margin-top: -57px;
+    background-color: #145684;
+    padding: 12px;
+    width: 20%;
+    margin-right: 50% !important;
+  }
+}
+
+/*# sourceMappingURL=app_home_whychooseindira_style_module_b52d8e.css.map*/

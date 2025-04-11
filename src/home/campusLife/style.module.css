@@ -1,0 +1,225 @@
+
+.CampusSection{
+  height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+
+  .campusLife {
+    opacity: 0;
+    transform: translateY(50px) scale(1.2); /* Start from below with zoomed-in effect */
+    transition: opacity 3s, transform 3s;
+  }
+  
+  /* Trigger the animation when the section is visible */
+  .animateIn {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+  }
+.HeadingName{
+    font-size: 4vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 4vw;
+}
+.CampusImg{
+    border-radius: 30px;
+    width: 100%;
+}
+.marginTopVideo{
+  margin-top: 2em;
+}
+.CampusParaBoxOuter{
+    position: relative;  
+}
+.CampusParaBox{
+  margin-top: 15em;
+}
+.CampusParaBox p{
+  
+    bottom: 10%;
+    font-size: 20px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0px;
+    padding-right:52%;
+
+}
+.CampusParaBox button{
+ 
+    bottom: -30px;
+    font-size: 16px;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+    color: #585858;
+    text-align: left;
+    margin-top: 0;
+    border-radius: 9px;
+    padding: 8px 24px;
+    background-color: #fccc00;
+}
+
+
+.ScrollTextBox{
+    top: 25%;
+    left:0px;
+    width: 100%;
+    background: #FFFFFF;
+    position: absolute;
+    font-family: Anton, serif !important;
+    overflow: hidden;
+   
+  }
+  
+
+  .ScrollText {
+    width:100%;
+    font-size: 7rem;
+   
+    color:#168DFF;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Anton, serif !important;
+  }
+  
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+    font-family: Anton, serif !important;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left2 20s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 10s;
+    font-family: Anton, serif !important;
+  }
+  /* scrolling-left is continuous/repeatly text */
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  @keyframes scrolling-left2 {
+      0% {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+        100% {transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+  .hideclassMob{
+    display: block;
+  }
+  .showclassMob{
+    display: none;
+  }
+  @media (max-width: 480px) {
+    .campusLife {
+    
+      transition: opacity 2s, transform 2s;
+    }
+    .CampusParaBox{
+      margin-top: 0em;
+    }
+    .hideclassMob{
+      display: none;
+    }
+    .showclassMob{
+      display: block;
+    }
+    .CampusSection {
+      height: auto;
+      width: 100%;
+      background-color: #fff;
+      position: relative;
+  }
+    .CampusParaBox p {
+      position: relative;
+      bottom: 0px;
+      font-size: 14px;
+      font-family: Anton, serif;
+      color: #000;
+      text-align: left;
+      margin-top: 25px;
+      padding-right:0%;
+  }
+  .HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+}
+.CampusParaBox button {
+  position: relative;
+  bottom: 0;
+  font-size: 11px;
+  color: #585858;
+  text-align: left;
+  margin-top: 0;
+  border-radius: 9px;
+  padding: 6px 19px;
+  background-color: #fccc00;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+.ScrollText {
+  width: 100%;
+  font-size: 1rem;
+  color: #168dff;
+  display: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+  }
+  @media screen and (min-width: 1500px) {
+    .CampusParaBox p {
+      position: absolute;
+      bottom: 0;
+      font-size: 30px;
+      font-family: Anton, serif;
+      color: #000;
+      text-align: left;
+      margin-top: 0px;
+      margin-bottom: 6% !important;
+      padding-right: 0%;
+  }
+  .CampusParaBox button {
+    position: absolute;
+    bottom: -30px;
+    font-size: 20px;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+    color: #585858;
+    text-align: left;
+    margin-top: 0;
+    border-radius: 9px;
+    padding: 8px 24px;
+    background-color: #fccc00;
+}
+  }
+
+
+
+
+
+

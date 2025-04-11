@@ -1,0 +1,118 @@
+/* [project]/app/home/universityState/style.module.css [app-client] (css) */
+.style-module__mF_pna__carouselContainer {
+  margin-top: 50px;
+}
+
+.style-module__mF_pna__carouselWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.style-module__mF_pna__carousel {
+  display: flex;
+  width: 100%;
+}
+
+.style-module__mF_pna__carouselSlide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-module__mF_pna__carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.style-module__mF_pna__prevButton {
+  left: 10px;
+}
+
+.style-module__mF_pna__nextButton {
+  right: 10px;
+}
+
+.style-module__mF_pna__indicators {
+  margin-top: 15px;
+}
+
+.style-module__mF_pna__indicators button {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.style-module__mF_pna__activeIndicator {
+  font-weight: bold;
+  color: #0070f3;
+}
+
+.style-module__mF_pna__inactiveIndicator {
+  color: #bbb;
+}
+
+.style-module__mF_pna__UniversityStateSection {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-color: #145684;
+}
+
+.style-module__mF_pna__UniversityStateSectionImg {
+  width: 80%;
+}
+
+.style-module__mF_pna__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__mF_pna__universityImgAlign {
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media (width <= 480px) {
+  .style-module__mF_pna__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__mF_pna__universityImgAlign {
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .style-module__mF_pna__UniversityStateSection {
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-color: #145684;
+  }
+}
+
+/*# sourceMappingURL=app_home_universityState_style_module_b52d8e.css.map*/

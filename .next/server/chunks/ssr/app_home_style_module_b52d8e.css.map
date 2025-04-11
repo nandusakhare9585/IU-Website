@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/home/style.module.css"],"sourcesContent":[".container {\r\n  overflow: hidden;\r\n}\r\n\r\n.section {\r\n  opacity: 0;\r\n  transform: translateY(50px); /* Initially translate the sections down */\r\n  transition: opacity 0.6s ease, transform 0.6s ease;\r\n}\r\n\r\n.section.animate {\r\n  opacity: 1;\r\n  transform: translateY(0); /* Bring the section back to its original position */\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;AAMA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,264 @@
+
+.NewsSection{
+    width: 100%;
+    background-color: #145684;
+    position: relative;
+}
+.newsAnimation {
+    opacity: 0;
+    transform: translateY(50px) scale(1.2); /* Start from below with zoomed-in effect */
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  /* Trigger the animation when the section is visible */
+  .animateIn {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+  }
+.PositionImages1{
+    position: absolute;
+    top: 0%;
+    left: -10rem;
+    border-radius: 50px;
+    width: 70%;
+}
+.relativeBox{
+    position:relative;
+}
+.PositionImages2{
+    margin-top: 25%;
+    border-radius: 50px;
+    width: 95%;
+}
+.newsParaBox h2{
+    font-size: 4vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 4vw;
+}
+/* .marginTopCss{
+    margin-top: -34px;
+}
+.minusMargin{
+    margin-top: -10% !important;
+}
+.FontFamilyinter{
+    font-family: Inter, serif !important;
+    font-weight: 200 !important;
+} */
+
+
+
+.newsParaBox{
+    position: relative;
+   
+}
+.newsParaBox p{
+  
+    bottom: 15%;
+    font-size: 17px;
+    font-family: Inter, serif !important;
+    font-weight: 200 !important;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    padding-right: 16%;
+
+}
+.newsParaBox button{
+   
+    bottom: 0;
+    font-size: 16px;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+    color: #585858;
+    text-align: justify;
+    margin-top: 0;
+    border-radius: 9px;
+    padding: 8px 24px;
+    background-color: #fccc00;
+}
+.newsParaBox h3{
+    margin-top: 15% !important;
+    bottom: 45%;
+    font-size: 2vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    padding-right: 41%;
+}
+.ScrollTextBox{
+    top: 25%;
+    left:0px;
+    width: 100%;
+   
+    position: absolute;
+   
+    overflow: hidden;
+  }
+  
+
+  .ScrollText {
+    width:100%;
+    font-size: 7rem;
+    
+    color:#168DFF;
+    white-space: nowrap;
+    text-transform: uppercase;
+   
+  }
+  
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+    font-family: Anton, serif !important;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left2 20s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 30s;
+    font-family: Anton, serif !important;
+  }
+
+
+
+
+  /* scrolling-left is continuous/repeatly text */
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  @keyframes scrolling-left2 {
+      0% {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+        100% {transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+  .hideclassMob{
+    display: block;
+  }
+  .showclassMob{
+    display: none;
+  }
+  .NewsAniClass {
+  
+    transform-origin: top center; /* Pivot point for the swing */
+   /* Pivot point for the swing */
+    animation: swing 3s ease-in-out infinite;/* Infinite swing animation */
+    
+  }
+  @keyframes swing {
+    0% {
+      transform: rotate(0deg); /* Start at center */
+    }
+    25% {
+      transform: rotate(5deg); /* Slight swing to the right */
+    }
+    50% {
+      transform: rotate(0deg); /* Back to center */
+    }
+    75% {
+      transform: rotate(-5deg); /* Slight swing to the left */
+    }
+    100% {
+      transform: rotate(0deg); /* Back to center */
+    }
+  }
+  /* Trigger the animation when the section is visible */
+  .animateIn {
+   
+    transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+  }
+  @media (max-width: 480px) {
+   
+    .hideclassMob{
+        display: none;
+      }
+      .showclassMob{
+        display: block;
+      }
+    .newsParaBox h2 {
+        font-size: 7vw;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: left;
+        margin-top: 0;
+        line-height: normal;
+    }
+    .newsParaBox p {
+        position: unset;
+        bottom: 15%;
+        font-size: 14px;
+        color: #fff;
+        text-align: left;
+        margin-top: 17px;
+        padding-right: 0%;
+        font-family: Inter, serif !important;
+        font-weight: 200 !important;
+    }
+    .newsParaBox h3 {
+        position: unset;
+        bottom: 0px;
+        font-size: 5vw;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: left;
+        margin-top: 25px;
+        line-height: 30px;
+        margin-top: 8% !important;
+       
+        padding-right: 0px;
+    }
+    .newsParaBox button {
+        position: unset;
+        bottom: 0;
+        font-size: 12px;
+        color: #585858;
+        text-align: left;
+        margin-top: 7px;
+        border-radius: 9px;
+        padding: 8px 15px;
+        background-color: #fccc00;
+        font-family: Inter, serif !important;
+        font-weight: 400 !important;
+    }
+    .PositionImages1 {
+        position: unset;
+        top: 0%;
+        left: 0rem;
+        border-radius: 50px;
+        width: 100%;
+    }
+    .PositionImages2 {
+        margin-top: 8%;
+        border-radius: 50px;
+        width: 100%;
+    }
+    .ScrollText {
+        width: 100%;
+        font-size: 11rem;
+        color: #168dff;
+        white-space: nowrap;
+        text-transform: uppercase;
+        display: none;
+    }
+  }

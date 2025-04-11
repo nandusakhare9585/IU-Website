@@ -1,0 +1,145 @@
+/* [project]/components/style.module.css [app-client] (css) */
+.style-module__-IypAW__FooterSection {
+  width: 100%;
+  background-color: #145684;
+  position: relative;
+}
+
+.style-module__-IypAW__HeadingName {
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__-IypAW__footersmallFont {
+  font-size: 18px;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 7%;
+}
+
+.style-module__-IypAW__LogoSize {
+  width: 85%;
+}
+
+.style-module__-IypAW__hamburgerContainer {
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.style-module__-IypAW__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.style-module__-IypAW__hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+.style-module__-IypAW__hamburger span:nth-child(2) {
+  width: 100%;
+  margin-left: -7px;
+}
+
+.style-module__-IypAW__sideMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #145684;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 2rem;
+  transition: right .3s;
+  z-index: 20;
+}
+
+.style-module__-IypAW__menuOpen {
+  right: 0;
+}
+
+.style-module__-IypAW__closeButton {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.style-module__-IypAW__menuList {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.style-module__-IypAW__menuList Link {
+  margin: 1rem 0;
+  font-size: 5vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (width <= 480px) {
+  .style-module__-IypAW__HeadingName {
+    font-size: 5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 8px;
+    line-height: 4vw;
+  }
+
+  .style-module__-IypAW__footersmallFont {
+    font-size: 15px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 4%;
+  }
+
+  .style-module__-IypAW__LogoSize {
+    width: 100%;
+    margin-bottom: 9%;
+  }
+
+  .style-module__-IypAW__hamburgerContainer {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .style-module__-IypAW__closeButton {
+    align-self: center;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+}
+
+/*# sourceMappingURL=components_style_module_b52d8e.css.map*/

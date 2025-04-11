@@ -1,0 +1,131 @@
+.whychooseindiraSection{
+ height: 100vh;
+    position: relative;
+  width: 100%;
+   background-color: #145684;
+   overflow: scroll;
+  
+}
+.whychoose {
+  opacity: 0;
+  transform: translateY(50px) scale(1.2); /* Start from below with zoomed-in effect */
+  transition: opacity 5s, transform 5s;
+}
+
+/* Trigger the animation when the section is visible */
+.animateIn {
+  opacity: 1;
+  transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideIn {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+.HeadingName{
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0px;
+  line-height: 4vw;
+}
+.headingwhychoose{
+  font-size: 25px;
+  font-family: Anton, serif;
+  color: #FFF9E0;
+  text-align: center;
+
+  margin-top: 10px;
+
+}
+.parawhychoose{
+  font-size: 14px;
+  margin-top: 14px !important;
+  font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  color: #fff;
+  text-align: center;
+ 
+}
+.hideclassMob{
+  display: block;
+}
+.showclassMob{
+  display: none;
+}
+@media (max-width: 480px) {
+  .whychoose {
+   
+    transition: opacity 2s, transform 2s;
+  }
+  .whychooseindiraSection {
+    height: auto;
+   
+    overflow: unset;
+}
+  .hideclassMob{
+    display: none;
+  }
+  .showclassMob{
+    display: block;
+  }
+  .headingwhychoose {
+    font-size: 16px;
+    font-family: Anton, serif;
+    color: #fff9e0;
+    text-align: center;
+    margin-top: 10px;
+}
+.parawhychoose {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin-top: 14px !important;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+.HeadingName {
+  font-size: 7vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: normal;
+  margin-bottom: 7%;
+}
+.imgwidth{
+  margin-top: -57px;
+  background-color: rgb(20, 86, 132);
+  padding: 12px;
+  width: 20%;
+  margin-right: 50% !important;
+}
+}
+@media screen and (min-width: 1500px) {
+  .headingwhychoose {
+    font-size: 30px;
+    font-family: Anton, serif;
+    color: #FFF9E0;
+    text-align: center;
+    margin-top: 10px;
+}
+.parawhychoose {
+  font-size: 16px;
+  margin-top: 14px !important;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+  color: #fff;
+  text-align: center;
+}
+
+}

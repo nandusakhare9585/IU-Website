@@ -1,0 +1,1437 @@
+/* [project]/app/home/bannerSection/style.module.css [app-client] (css) */
+.style-module__sOWV0G__banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.style-module__sOWV0G__BackgroundBlock {
+  position: relative;
+  z-index: 1;
+}
+
+.style-module__sOWV0G__BackgroundBlock h1 {
+  font-size: 9vw;
+  font-family: Anton, serif;
+  color: #fff9e0;
+  text-align: center;
+  margin-top: 18%;
+  line-height: 9vw;
+}
+
+.style-module__sOWV0G__bulpImg {
+  color: #0000;
+  width: 85%;
+  margin-left: -20%;
+  margin-top: 14%;
+}
+
+.style-module__sOWV0G__BackgroundBlock h4 {
+  color: #fff;
+  font-size: 2vw;
+  margin-left: 10%;
+  font-family: Anton, serif;
+}
+
+.style-module__sOWV0G__LogoBox img {
+  width: 30%;
+}
+
+.style-module__sOWV0G__LogoBox p {
+  color: #fff;
+  font-size: 3vw;
+  margin-left: 1%;
+  font-family: Anton, serif;
+  margin-top: 1%;
+  font-weight: 200;
+}
+
+.style-module__sOWV0G__LogoBox {
+  position: absolute;
+  top: 6%;
+  left: 3rem;
+  display: flex;
+  width: 95%;
+}
+
+.style-module__sOWV0G__marqueeContainer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.style-module__sOWV0G__marquee {
+  display: inline-block;
+  animation: 10s linear infinite style-module__sOWV0G__scroll;
+}
+
+.style-module__sOWV0G__marquee span {
+  font-size: 10rem;
+  margin-right: 2rem;
+  color: #168dff4d;
+}
+
+@keyframes style-module__sOWV0G__scroll {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (width <= 768px) {
+  .style-module__sOWV0G__BackgroundBlock h1 {
+    font-size: 10vw;
+    margin-top: 25%;
+    line-height: 10vw;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h4 {
+    font-size: 3vw;
+    margin-left: 3%;
+  }
+
+  .style-module__sOWV0G__bulpImg {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 18%;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 20%;
+  }
+
+  .style-module__sOWV0G__LogoBox p {
+    font-size: 2.8vw;
+    margin-top: 3%;
+  }
+
+  .style-module__sOWV0G__marquee span {
+    font-size: 6rem;
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__sOWV0G__LogoBox {
+    position: relative;
+    top: 6%;
+    left: 3rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .style-module__sOWV0G__banner {
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h1 {
+    font-size: 8vw;
+    margin-top: 0%;
+    line-height: normal;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h4 {
+    font-size: 3vw;
+    margin-left: 18%;
+  }
+
+  .style-module__sOWV0G__bulpImg {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 15%;
+  }
+
+  .style-module__sOWV0G__LogoBox p {
+    font-size: 3.5vw;
+    margin-top: 4%;
+  }
+
+  .style-module__sOWV0G__marquee span {
+    font-size: 4rem;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 58%;
+    margin-top: 4%;
+  }
+}
+
+
+/* [project]/components/style.module.css [app-client] (css) */
+.style-module__-IypAW__FooterSection {
+  width: 100%;
+  background-color: #145684;
+  position: relative;
+}
+
+.style-module__-IypAW__HeadingName {
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__-IypAW__footersmallFont {
+  font-size: 18px;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 7%;
+}
+
+.style-module__-IypAW__LogoSize {
+  width: 85%;
+}
+
+.style-module__-IypAW__hamburgerContainer {
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.style-module__-IypAW__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.style-module__-IypAW__hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+.style-module__-IypAW__hamburger span:nth-child(2) {
+  width: 100%;
+  margin-left: -7px;
+}
+
+.style-module__-IypAW__sideMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #145684;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 2rem;
+  transition: right .3s;
+  z-index: 20;
+}
+
+.style-module__-IypAW__menuOpen {
+  right: 0;
+}
+
+.style-module__-IypAW__closeButton {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.style-module__-IypAW__menuList {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.style-module__-IypAW__menuList Link {
+  margin: 1rem 0;
+  font-size: 5vw;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (width <= 480px) {
+  .style-module__-IypAW__HeadingName {
+    font-size: 5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 8px;
+    line-height: 4vw;
+  }
+
+  .style-module__-IypAW__footersmallFont {
+    font-size: 15px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 4%;
+  }
+
+  .style-module__-IypAW__LogoSize {
+    width: 100%;
+    margin-bottom: 9%;
+  }
+
+  .style-module__-IypAW__hamburgerContainer {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .style-module__-IypAW__closeButton {
+    align-self: center;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+}
+
+
+/* [project]/app/home/style.module.css [app-client] (css) */
+.style-module__nUETza__container {
+  overflow: hidden;
+}
+
+.style-module__nUETza__section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity .6s, transform .6s;
+}
+
+.style-module__nUETza__section.style-module__nUETza__animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* [project]/app/home/news/style.module.css [app-client] (css) */
+.style-module__Jc8vCq__NewsSection {
+  width: 100%;
+  background-color: #145684;
+  position: relative;
+}
+
+.style-module__Jc8vCq__PositionImages1 {
+  position: absolute;
+  top: 0%;
+  left: -13rem;
+  border-radius: 50px;
+  width: 70%;
+}
+
+.style-module__Jc8vCq__relativeBox {
+  position: relative;
+}
+
+.style-module__Jc8vCq__PositionImages2 {
+  margin-top: 25%;
+  border-radius: 50px;
+  width: 95%;
+}
+
+.style-module__Jc8vCq__newsParaBox h2 {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Jc8vCq__newsParaBox {
+  position: relative;
+}
+
+.style-module__Jc8vCq__newsParaBox p {
+  position: absolute;
+  bottom: 15%;
+  font-size: 17px;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  padding-right: 16%;
+  font-family: Inter, serif !important;
+  font-weight: 200 !important;
+}
+
+.style-module__Jc8vCq__newsParaBox button {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  color: #585858;
+  text-align: left;
+  margin-top: 0;
+  border-radius: 9px;
+  padding: 8px 24px;
+  background-color: #fccc00;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__Jc8vCq__newsParaBox h3 {
+  position: absolute;
+  bottom: 45%;
+  font-size: 2vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Jc8vCq__ScrollTextBox {
+  top: 25%;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.style-module__Jc8vCq__ScrollText {
+  width: 100%;
+  font-size: 11rem;
+  color: #168dff;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.style-module__Jc8vCq__marqueeStyle {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Jc8vCq__scrolling-left1;
+}
+
+.style-module__Jc8vCq__marqueeStyle2 {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Jc8vCq__scrolling-left2;
+  animation-delay: 30s;
+}
+
+@keyframes style-module__Jc8vCq__scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes style-module__Jc8vCq__scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__Jc8vCq__newsParaBox h2 {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: normal;
+  }
+
+  .style-module__Jc8vCq__newsParaBox p {
+    position: unset;
+    bottom: 15%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-top: 17px;
+    padding-right: 0%;
+    font-family: Inter, serif !important;
+    font-weight: 200 !important;
+  }
+
+  .style-module__Jc8vCq__newsParaBox h3 {
+    position: unset;
+    bottom: 0;
+    font-size: 5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 25px;
+    line-height: 4vw;
+  }
+
+  .style-module__Jc8vCq__newsParaBox button {
+    position: unset;
+    bottom: 0;
+    font-size: 12px;
+    color: #585858;
+    text-align: left;
+    margin-top: 7px;
+    border-radius: 9px;
+    padding: 8px 15px;
+    background-color: #fccc00;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__Jc8vCq__PositionImages1 {
+    position: unset;
+    top: 0%;
+    left: 0;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .style-module__Jc8vCq__PositionImages2 {
+    margin-top: 8%;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .style-module__Jc8vCq__ScrollText {
+    width: 100%;
+    font-size: 11rem;
+    color: #168dff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    display: none;
+  }
+}
+
+
+/* [project]/app/home/universityState/style.module.css [app-client] (css) */
+.style-module__mF_pna__carouselContainer {
+  margin-top: 50px;
+}
+
+.style-module__mF_pna__carouselWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.style-module__mF_pna__carousel {
+  display: flex;
+  width: 100%;
+}
+
+.style-module__mF_pna__carouselSlide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-module__mF_pna__carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.style-module__mF_pna__prevButton {
+  left: 10px;
+}
+
+.style-module__mF_pna__nextButton {
+  right: 10px;
+}
+
+.style-module__mF_pna__indicators {
+  margin-top: 15px;
+}
+
+.style-module__mF_pna__indicators button {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.style-module__mF_pna__activeIndicator {
+  font-weight: bold;
+  color: #0070f3;
+}
+
+.style-module__mF_pna__inactiveIndicator {
+  color: #bbb;
+}
+
+.style-module__mF_pna__UniversityStateSection {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-color: #145684;
+}
+
+.style-module__mF_pna__UniversityStateSectionImg {
+  width: 80%;
+}
+
+.style-module__mF_pna__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__mF_pna__universityImgAlign {
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+@media (width <= 480px) {
+  .style-module__mF_pna__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__mF_pna__universityImgAlign {
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .style-module__mF_pna__UniversityStateSection {
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-color: #145684;
+  }
+}
+
+
+/* [project]/app/home/whychooseindira/style.module.css [app-client] (css) */
+.style-module__gmpUOq__whychooseindiraSection {
+  position: relative;
+  width: 100%;
+  background-color: #145684;
+}
+
+.style-module__gmpUOq__HeadingName {
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__gmpUOq__headingwhychoose {
+  font-size: 25px;
+  font-family: Anton, serif;
+  color: #fff9e0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.style-module__gmpUOq__parawhychoose {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 14px !important;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__gmpUOq__hideclassMob {
+  display: block;
+}
+
+.style-module__gmpUOq__showclassMob {
+  display: none;
+}
+
+@media (width <= 480px) {
+  .style-module__gmpUOq__hideclassMob {
+    display: none;
+  }
+
+  .style-module__gmpUOq__showclassMob {
+    display: block;
+  }
+
+  .style-module__gmpUOq__headingwhychoose {
+    font-size: 16px;
+    font-family: Anton, serif;
+    color: #fff9e0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .style-module__gmpUOq__parawhychoose {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-top: 14px !important;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__gmpUOq__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: normal;
+    margin-bottom: 7%;
+  }
+
+  .style-module__gmpUOq__imgwidth {
+    margin-top: -57px;
+    background-color: #145684;
+    padding: 12px;
+    width: 20%;
+    margin-right: 50% !important;
+  }
+}
+
+
+/* [project]/app/home/programOffered/style.module.css [app-client] (css) */
+.style-module__iCJP-W__programOfferedSection {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.style-module__iCJP-W__blockzindex {
+  z-index: 1;
+  position: relative;
+}
+
+.style-module__iCJP-W__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__iCJP-W__Programmedinnerbox {
+  background: #145684;
+  border-radius: 23px;
+  padding: 1em;
+  margin-top: -11%;
+}
+
+.style-module__iCJP-W__Programmedinnerbox h2 {
+  font-size: 3vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 4vw;
+  text-transform: uppercase;
+}
+
+.style-module__iCJP-W__Programmedinnerbox p {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__iCJP-W__Programmedinnerbox button {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 2%;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+  background-color: "#FCCC00" !important;
+  color: "#fff " !important;
+}
+
+.style-module__iCJP-W__linksProgram li {
+  font-size: 1rem;
+  margin-right: 16px;
+}
+
+.style-module__iCJP-W__TabName {
+  font-size: 20px !important;
+  font-family: Anton, serif !important;
+  color: #000 !important;
+}
+
+.style-module__iCJP-W__marqueeContainer {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.style-module__iCJP-W__marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: 10s linear infinite style-module__iCJP-W__scroll;
+}
+
+.style-module__iCJP-W__marquee span {
+  font-size: 10rem;
+  margin-right: 2rem;
+  color: #145684;
+}
+
+.style-module__iCJP-W__marquee:after {
+  content: attr(data-text);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+@keyframes style-module__iCJP-W__scroll {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.style-module__iCJP-W__ScrollTextBox {
+  top: 35%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.style-module__iCJP-W__ScrollText {
+  width: 100%;
+  font-size: 8rem;
+  color: #145684;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.style-module__iCJP-W__marqueeStyle {
+  display: inline-block;
+  animation: 20s linear infinite style-module__iCJP-W__scrolling-left1;
+}
+
+.style-module__iCJP-W__marqueeStyle2 {
+  display: inline-block;
+  animation: 20s linear infinite style-module__iCJP-W__scrolling-left2;
+  animation-delay: 10s;
+}
+
+@keyframes style-module__iCJP-W__scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes style-module__iCJP-W__scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__iCJP-W__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: normal;
+  }
+
+  .style-module__iCJP-W__Programmedinnerbox h2 {
+    font-size: 4vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .style-module__iCJP-W__Programmedinnerbox p {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__iCJP-W__Programmedinnerbox button {
+    font-size: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 2%;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+    background-color: "#FCCC00" !important;
+    color: "#fff " !important;
+  }
+
+  .style-module__iCJP-W__ScrollTextBox {
+    top: 17%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .style-module__iCJP-W__ScrollText {
+    width: 100%;
+    color: #145684;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: none;
+    font-size: 4rem !important;
+  }
+
+  .style-module__iCJP-W__TabName {
+    font-size: 14px !important;
+    font-family: Anton, serif !important;
+    color: #000 !important;
+  }
+
+  .style-module__iCJP-W__programOfferedSection {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+  }
+}
+
+
+/* [project]/app/home/studenttestimonials/style.module.css [app-client] (css) */
+.style-module__dqz8LW__testimonialSection {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.style-module__dqz8LW__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__dqz8LW__studentpara {
+  font-size: 20px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__dqz8LW__studentName {
+  font-size: 16px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__dqz8LW__studentimg {
+  width: 20%;
+}
+
+@media (width <= 480px) {
+  .style-module__dqz8LW__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__dqz8LW__studentpara {
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .style-module__dqz8LW__studentimg {
+    width: 18%;
+  }
+
+  .style-module__dqz8LW__studentName {
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+
+/* [project]/app/home/enquiryform/style.module.css [app-client] (css) */
+.style-module__Gs0Xlq__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Gs0Xlq__formStyle {
+  margin-top: 5rem;
+  width: 73%;
+  margin-left: 11%;
+}
+
+.style-module__Gs0Xlq__ImgStyle {
+  width: 75%;
+  margin-top: 11%;
+  margin-left: 5%;
+}
+
+@media (width <= 480px) {
+  .style-module__Gs0Xlq__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__Gs0Xlq__ImgStyle {
+    width: 86%;
+    margin-top: 11%;
+    margin-left: 5%;
+  }
+
+  .style-module__Gs0Xlq__formStyle {
+    margin-top: 1rem;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+
+/* [project]/app/home/campusLife/style.module.css [app-client] (css) */
+.style-module__Tzj73q__CampusSection {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.style-module__Tzj73q__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Tzj73q__CampusImg {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.style-module__Tzj73q__CampusParaBoxOuter {
+  position: relative;
+}
+
+.style-module__Tzj73q__CampusParaBox p {
+  position: absolute;
+  bottom: 25%;
+  font-size: 20px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__Tzj73q__CampusParaBox button {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  color: #585858;
+  text-align: left;
+  margin-top: 0;
+  border-radius: 9px;
+  padding: 8px 24px;
+  background-color: #fccc00;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__Tzj73q__ScrollTextBox {
+  top: 25%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.style-module__Tzj73q__ScrollText {
+  width: 100%;
+  font-size: 7rem;
+  color: #168dff;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.style-module__Tzj73q__marqueeStyle {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Tzj73q__scrolling-left1;
+}
+
+.style-module__Tzj73q__marqueeStyle2 {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Tzj73q__scrolling-left2;
+  animation-delay: 10s;
+}
+
+@keyframes style-module__Tzj73q__scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes style-module__Tzj73q__scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__Tzj73q__CampusParaBox p {
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 25px;
+  }
+
+  .style-module__Tzj73q__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__Tzj73q__CampusParaBox button {
+    position: relative;
+    bottom: 0;
+    font-size: 11px;
+    color: #585858;
+    text-align: left;
+    margin-top: 0;
+    border-radius: 9px;
+    padding: 6px 19px;
+    background-color: #fccc00;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__Tzj73q__ScrollText {
+    width: 100%;
+    font-size: 1rem;
+    color: #168dff;
+    display: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+}
+
+
+/* [project]/app/home/awardsAndAccolades/style.module.css [app-client] (css) */
+.style-module__pFSJnW__NewsSection {
+  width: 100%;
+  background-color: #145684;
+  position: relative;
+}
+
+.style-module__pFSJnW__PositionImages1 {
+  position: absolute;
+  top: 0%;
+  left: -13rem;
+  border-radius: 50px;
+  width: 70%;
+}
+
+.style-module__pFSJnW__relativeBox {
+  position: relative;
+}
+
+.style-module__pFSJnW__PositionImages2 {
+  margin-top: 25%;
+  border-radius: 50px;
+  width: 95%;
+}
+
+.style-module__pFSJnW__newsParaBox h2 {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__pFSJnW__newsParaBox {
+  position: relative;
+}
+
+.style-module__pFSJnW__newsParaBox p {
+  position: absolute;
+  bottom: 15%;
+  font-size: 17px;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  padding-right: 16%;
+  font-family: Inter, serif !important;
+  font-weight: 200 !important;
+}
+
+.style-module__pFSJnW__newsParaBox button {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  color: #585858;
+  text-align: left;
+  margin-top: 0;
+  border-radius: 9px;
+  padding: 8px 24px;
+  background-color: #fccc00;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__pFSJnW__newsParaBox h3 {
+  position: absolute;
+  bottom: 40%;
+  font-size: 2vw;
+  font-family: Anton, serif;
+  color: #fff;
+  text-align: left;
+  margin-top: 0;
+  line-height: 2vw;
+  padding-right: 36%;
+}
+
+.style-module__pFSJnW__ScrollTextBox {
+  top: 25%;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.style-module__pFSJnW__ScrollText {
+  width: 100%;
+  font-size: 11rem;
+  color: #168dff;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.style-module__pFSJnW__marqueeStyle {
+  display: inline-block;
+  animation: 20s linear infinite style-module__pFSJnW__scrolling-left1;
+}
+
+.style-module__pFSJnW__marqueeStyle2 {
+  display: inline-block;
+  animation: 20s linear infinite style-module__pFSJnW__scrolling-left2;
+  animation-delay: 30s;
+}
+
+@keyframes style-module__pFSJnW__scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes style-module__pFSJnW__scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__pFSJnW__newsParaBox h2 {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    line-height: normal;
+  }
+
+  .style-module__pFSJnW__newsParaBox p {
+    position: unset;
+    bottom: 15%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-top: 17px;
+    padding-right: 0%;
+    font-family: Inter, serif !important;
+    font-weight: 200 !important;
+  }
+
+  .style-module__pFSJnW__newsParaBox h3 {
+    position: unset;
+    bottom: 0;
+    font-size: 5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 25px;
+    line-height: normal;
+  }
+
+  .style-module__pFSJnW__newsParaBox button {
+    position: unset;
+    bottom: 0;
+    font-size: 12px;
+    color: #585858;
+    text-align: left;
+    margin-top: 7px;
+    border-radius: 9px;
+    padding: 8px 15px;
+    background-color: #fccc00;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__pFSJnW__PositionImages1 {
+    position: unset;
+    top: 0%;
+    left: 0;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .style-module__pFSJnW__PositionImages2 {
+    margin-top: 8%;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .style-module__pFSJnW__ScrollText {
+    width: 100%;
+    font-size: 11rem;
+    color: #168dff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    display: none;
+  }
+}
+
+
+/*# sourceMappingURL=_ea6102._.css.map*/

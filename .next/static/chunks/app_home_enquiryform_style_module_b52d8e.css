@@ -1,0 +1,46 @@
+/* [project]/app/home/enquiryform/style.module.css [app-client] (css) */
+.style-module__Gs0Xlq__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Gs0Xlq__formStyle {
+  margin-top: 5rem;
+  width: 73%;
+  margin-left: 11%;
+}
+
+.style-module__Gs0Xlq__ImgStyle {
+  width: 75%;
+  margin-top: 11%;
+  margin-left: 5%;
+}
+
+@media (width <= 480px) {
+  .style-module__Gs0Xlq__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__Gs0Xlq__ImgStyle {
+    width: 86%;
+    margin-top: 11%;
+    margin-left: 5%;
+  }
+
+  .style-module__Gs0Xlq__formStyle {
+    margin-top: 1rem;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/*# sourceMappingURL=app_home_enquiryform_style_module_b52d8e.css.map*/

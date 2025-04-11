@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/home/enquiryform/style.module.css"],"sourcesContent":[".HeadingName{\r\n    font-size: 4vw;\r\n    font-family: Anton, serif;\r\n    color: black;\r\n    text-align: left;\r\n    margin-top: 0px;\r\n    line-height: 4vw;\r\n}\r\n.formStyle{\r\n    margin-top: 5rem;\r\n    width: 73%;\r\n    margin-left: 11%;\r\n}\r\n.ImgStyle{\r\n    width: 75%;\r\n    margin-top: 11%;\r\n    margin-left: 5%;\r\n}\r\n@media (max-width: 480px) {\r\n    .HeadingName {\r\n        font-size: 7vw;\r\n        font-family: Anton, serif;\r\n        color: #000;\r\n        text-align: left;\r\n        margin-top: 0;\r\n        line-height: 4vw;\r\n    }\r\n    .ImgStyle {\r\n        width: 86%;\r\n        margin-top: 11%;\r\n        margin-left: 5%;\r\n    }\r\n    .formStyle {\r\n        margin-top: 1rem;\r\n        width: 100%;\r\n        margin-left: 0%;\r\n    }\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAQA;;;;;;AAKA;;;;;;AAKA;EACI;;;;;;;;;EAQA;;;;;;EAKA"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

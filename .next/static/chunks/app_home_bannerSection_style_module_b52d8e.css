@@ -1,0 +1,175 @@
+/* [project]/app/home/bannerSection/style.module.css [app-client] (css) */
+.style-module__sOWV0G__banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.style-module__sOWV0G__BackgroundBlock {
+  position: relative;
+  z-index: 1;
+}
+
+.style-module__sOWV0G__BackgroundBlock h1 {
+  font-size: 9vw;
+  font-family: Anton, serif;
+  color: #fff9e0;
+  text-align: center;
+  margin-top: 18%;
+  line-height: 9vw;
+}
+
+.style-module__sOWV0G__bulpImg {
+  color: #0000;
+  width: 85%;
+  margin-left: -20%;
+  margin-top: 14%;
+}
+
+.style-module__sOWV0G__BackgroundBlock h4 {
+  color: #fff;
+  font-size: 2vw;
+  margin-left: 10%;
+  font-family: Anton, serif;
+}
+
+.style-module__sOWV0G__LogoBox img {
+  width: 30%;
+}
+
+.style-module__sOWV0G__LogoBox p {
+  color: #fff;
+  font-size: 3vw;
+  margin-left: 1%;
+  font-family: Anton, serif;
+  margin-top: 1%;
+  font-weight: 200;
+}
+
+.style-module__sOWV0G__LogoBox {
+  position: absolute;
+  top: 6%;
+  left: 3rem;
+  display: flex;
+  width: 95%;
+}
+
+.style-module__sOWV0G__marqueeContainer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.style-module__sOWV0G__marquee {
+  display: inline-block;
+  animation: 10s linear infinite style-module__sOWV0G__scroll;
+}
+
+.style-module__sOWV0G__marquee span {
+  font-size: 10rem;
+  margin-right: 2rem;
+  color: #168dff4d;
+}
+
+@keyframes style-module__sOWV0G__scroll {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (width <= 768px) {
+  .style-module__sOWV0G__BackgroundBlock h1 {
+    font-size: 10vw;
+    margin-top: 25%;
+    line-height: 10vw;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h4 {
+    font-size: 3vw;
+    margin-left: 3%;
+  }
+
+  .style-module__sOWV0G__bulpImg {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 18%;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 20%;
+  }
+
+  .style-module__sOWV0G__LogoBox p {
+    font-size: 2.8vw;
+    margin-top: 3%;
+  }
+
+  .style-module__sOWV0G__marquee span {
+    font-size: 6rem;
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__sOWV0G__LogoBox {
+    position: relative;
+    top: 6%;
+    left: 3rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .style-module__sOWV0G__banner {
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h1 {
+    font-size: 8vw;
+    margin-top: 0%;
+    line-height: normal;
+  }
+
+  .style-module__sOWV0G__BackgroundBlock h4 {
+    font-size: 3vw;
+    margin-left: 18%;
+  }
+
+  .style-module__sOWV0G__bulpImg {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 15%;
+  }
+
+  .style-module__sOWV0G__LogoBox p {
+    font-size: 3.5vw;
+    margin-top: 4%;
+  }
+
+  .style-module__sOWV0G__marquee span {
+    font-size: 4rem;
+  }
+
+  .style-module__sOWV0G__LogoBox img {
+    width: 58%;
+    margin-top: 4%;
+  }
+}
+
+/*# sourceMappingURL=app_home_bannerSection_style_module_b52d8e.css.map*/

@@ -1,0 +1,23 @@
+.container {
+  overflow: scroll;
+  scroll-snap-type:y  mandatory;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.loadPage{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 480px) {
+.loadPage{
+  
+  scroll-snap-align: unset;
+}
+}
+

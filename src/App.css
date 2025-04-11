@@ -1,0 +1,62 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Anton", serif;
+}
+.containerLeftRight{
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+.paddingTopBottom{
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  border: 2px solid white !important;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 16%  !important;
+    background-size: 100% 56%  !important;
+    border-radius: 50%  !important;
+    background-color: #145684  !important;
+}
+@media (max-width: 480px) {
+  .containerLeftRight{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .paddingTopBottom{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+.carousel-control-next, .carousel-control-prev {
+
+  right: -11% !important;
+ 
+}
+.carousel-control-prev {
+  left: -11% !important;
+}
+.carousel-indicators {
+  display: none !important;
+  bottom: -11% !important;
+}

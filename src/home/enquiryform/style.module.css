@@ -1,0 +1,91 @@
+.testimonialSection{
+
+    height: 100vh;
+  width: 100%;
+   background-color: #fff;
+   position: relative; /* Ensure proper layering */
+  
+}
+
+.HeadingName{
+    font-size: 4vw;
+    font-family: Anton, serif;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 4vw;
+}
+.formStyle{
+    margin-top: -8%;
+    width: 80%;
+    margin-left: 11%;
+    box-shadow: 3px 1px 11px 5px #dcdcdc;
+}
+.formStyle h2{
+    font-size: 18px;
+    font-family: Anton, serif;
+    background-color: #145684;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 4vw;
+    color: white;
+    text-align: center;
+}
+.ImgStyle{
+    width: 60%;
+    margin-top: 9%;
+    margin-left: 10%;
+}
+.EnquiryAniClass {
+    opacity: 0;
+    transform: translateY(50px) scale(1.2); /* Start from below with zoomed-in effect */
+    transition: opacity 3s, transform 3s;
+  }
+  
+  /* Trigger the animation when the section is visible */
+  .animateIn {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+  }
+
+@media (max-width: 480px) {
+    .EnquiryAniClass {
+       
+        transition: opacity 2s, transform 2s;
+      }
+    .testimonialSection {
+        height: AUTO;
+       
+    }
+    .HeadingName {
+        font-size: 7vw;
+        font-family: Anton, serif;
+        color: #000;
+        text-align: left;
+        margin-top: 0;
+        line-height: 4vw;
+    }
+    .ImgStyle {
+        width: 86%;
+        margin-top: 11%;
+        margin-left: 5%;
+    }
+    .formStyle {
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .formStyle h2{
+        font-size: 18px;
+        font-family: Anton, serif;
+        background-color: #145684;
+        color: black;
+        text-align: left;
+        margin-top: 0px;
+        line-height: 10vw;
+        color: white;
+        text-align: center;
+    }
+}

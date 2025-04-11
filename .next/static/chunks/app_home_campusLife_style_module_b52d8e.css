@@ -1,0 +1,146 @@
+/* [project]/app/home/campusLife/style.module.css [app-client] (css) */
+.style-module__Tzj73q__CampusSection {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.style-module__Tzj73q__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__Tzj73q__CampusImg {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.style-module__Tzj73q__CampusParaBoxOuter {
+  position: relative;
+}
+
+.style-module__Tzj73q__CampusParaBox p {
+  position: absolute;
+  bottom: 25%;
+  font-size: 20px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__Tzj73q__CampusParaBox button {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  color: #585858;
+  text-align: left;
+  margin-top: 0;
+  border-radius: 9px;
+  padding: 8px 24px;
+  background-color: #fccc00;
+  font-family: Inter, serif !important;
+  font-weight: 400 !important;
+}
+
+.style-module__Tzj73q__ScrollTextBox {
+  top: 25%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+
+.style-module__Tzj73q__ScrollText {
+  width: 100%;
+  font-size: 7rem;
+  color: #168dff;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.style-module__Tzj73q__marqueeStyle {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Tzj73q__scrolling-left1;
+}
+
+.style-module__Tzj73q__marqueeStyle2 {
+  display: inline-block;
+  animation: 20s linear infinite style-module__Tzj73q__scrolling-left2;
+  animation-delay: 10s;
+}
+
+@keyframes style-module__Tzj73q__scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes style-module__Tzj73q__scrolling-left2 {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+  }
+}
+
+@media (width <= 480px) {
+  .style-module__Tzj73q__CampusParaBox p {
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 25px;
+  }
+
+  .style-module__Tzj73q__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__Tzj73q__CampusParaBox button {
+    position: relative;
+    bottom: 0;
+    font-size: 11px;
+    color: #585858;
+    text-align: left;
+    margin-top: 0;
+    border-radius: 9px;
+    padding: 6px 19px;
+    background-color: #fccc00;
+    font-family: Inter, serif !important;
+    font-weight: 400 !important;
+  }
+
+  .style-module__Tzj73q__ScrollText {
+    width: 100%;
+    font-size: 1rem;
+    color: #168dff;
+    display: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+}
+
+/*# sourceMappingURL=app_home_campusLife_style_module_b52d8e.css.map*/

@@ -1,0 +1,168 @@
+.FooterSection{
+  height: 100vh;
+    width: 100%;
+    background-color: #145684;
+    position: relative;
+}
+.marginTopfooter{
+  margin-top: 8%;
+}
+
+.HeadingName{
+    font-size: 3vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 4vw;
+}
+.footersmallFont{
+    font-size: 18px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 7%;
+   
+}
+.LogoSize{
+    width:85%;
+}
+.hamburgerContainer {
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  .hamburger span:nth-child(2) {
+    width: 100%; /* Slightly shorter middle line */
+    margin-left: -7px; /* Offset the middle line */
+  }
+  .sideMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%; /* Full width */
+    height: 100%;
+    background-color: #145684;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2rem;
+    transition: right 0.3s ease;
+    z-index: 20;
+  }
+  
+  
+  .menuOpen {
+    right: 0;
+  }
+  
+  .closeButton {
+    align-self: flex-end;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  .menuList {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menuListAtag {
+   
+    font-family: Anton, serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white !important;
+    text-decoration: auto;
+    font-size: 2vw !important;
+  }
+  .iconMenu{
+    margin-right: 20px;
+    font-size: 3vw !important;
+  }
+  .FooterAniClass {
+    opacity: 0;
+    transform: translateY(50px) scale(1.2); /* Start from below with zoomed-in effect */
+    transition: opacity 5s, transform 5s;
+  }
+  
+  /* Trigger the animation when the section is visible */
+  .animateIn {
+    opacity: 1;
+    transform: translateY(0) scale(1); /* Slide up to its original position with zoom-out effect */
+  }
+  @media (max-width: 480px) {
+    .menuListAtag {
+     
+      font-size: 5vw !important;
+  }
+  .iconMenu {
+    margin-right: 13px;
+    font-size: 7vw !important;
+}
+    .FooterSection{
+      height: AUTO;
+     
+  }
+    .HeadingName {
+      font-size: 5vw;
+      font-family: Anton, serif;
+      color: #fff;
+      text-align: left;
+      margin-top: 8px;
+      line-height: 4vw;
+  }
+  .footersmallFont {
+    font-size: 15px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 4%;
+    PADDING: 0PX;
+  }
+  .LogoSize {
+    width: 100%;
+    margin-bottom: 9%;
+}
+.hamburgerContainer {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.closeButton {
+  align-self: center;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+  }

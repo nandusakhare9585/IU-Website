@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.AboutHeading{
+    font-size: 3.5vw;
+    font-family: Anton, serif;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30%;
+    color: #fff;
+
+}
+.AboutPara{
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px 15px;
+   
+}
+.AboutParaVice{
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #1B1B1B;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px 15px;
+   
+}
+.BackgroundBlock {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
+.aboutSectionSection{
+  
+    width:100%;
+    background-color: #145684;
+    position: relative;
+}
+.aboutSection{
+   
+    width:100%;
+    background-color: #145684;
+    position: relative;
+}
+
+.visionSection{
+    height:100%;
+    width:100%;
+    background-color: #145684;
+}
+
+.VisionMissionHeading{
+    font-size: 3.5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 21px;
+
+}
+
+.VisionHeading{
+    font-size: 2.5VW;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 21px;
+
+}
+
+.visionimg{
+    padding: 5vh 10vh;    
+    width: 100%;
+    border-right: 2px solid #fff;
+
+}
+
+.misionimg{
+    padding: 5vh 10vh;
+    width: 100%;
+    border-left: 2px solid white;
+}
+
+
+.visionpara{
+    font-size: 18px;
+    padding:  10vh 10vh;
+    font-family: "Inter", serif;
+    color: #FFFF;
+    text-align: left;
+    font-weight: 300;
+}
+
+.MisionUllist{
+    color: white;
+    font-size: 18px;
+    padding:  10vh 15vh;
+    font-family: "Inter", serif;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    list-style-type: square;
+}
+
+.visionMisionpara{
+    font-family: "Inter", serif;
+    color: #FFFF;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4vw;
+    font-weight: 300;
+}
+
+.OurInitiativesHeading{
+        font-size: 5vw;
+        font-family: Anton, serif;
+        color: #145684;
+        text-align: left;
+        margin-top: 0;
+}
+
+.OurInitiativesSection{
+
+        height:100%;
+        width:100%;
+        background-color: #FFFFFF;
+    
+}
+
+.OurInitiativesHeading1{
+    font-size: 3vw;
+        font-family: Anton, serif;
+        color: #000000;
+        text-align: left;
+        margin-top: 0;
+}
+
+
+.OurIISDHeading{
+    font-size: 3.5vw;
+        font-family: Anton, serif;
+        color: #000000;
+        text-align: left;
+        margin-top: 0;
+        line-height: 70px;
+
+}
+
+.OurISFHeading{
+    font-size: 3.5vw;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: left;
+    margin-top: 0;
+}
+
+.OurIBFHeading{
+    font-size: 3.5vw;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+
+
+.ourInitiativespara{
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #000000;
+    text-align: left;
+    padding: 2vh 22vh 2vh 0vh;
+    line-height: 24px;
+    font-weight: 200;
+
+}
+
+.ourInitiativesparaBold{
+
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #000000;
+    text-align: left;
+    padding: 2vh 22vh 2vh 0vh;
+    line-height: 24px;
+    font-weight: 500    ;
+}
+
+
+.ourInitiativesparaPL{
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #000000;
+    text-align: left;
+    border-left: 2px solid white; 
+    padding: 2vh 22vh 2vh 0vh;
+    line-height: 24px;
+    font-weight: 200;
+
+}
+
+.ourInitiativesPaddingRight{
+    padding: 2vh 35vh 2vh 0vh;
+}
+
+.ourInitiativesHeading2{
+    font-size: 2vw;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+.KnowMoreBtn{
+    background-color: #FCCC00  !important;
+    color: #1B1B1B !important;
+    padding: 5px 20px !important;
+}
+
+.IBFimg{
+    position: absolute;
+
+}
+
+.PositionImages1{
+    position: absolute;
+    top: -35%;
+    left: -6rem;
+    width: 70%;
+}
+.relativeBox{
+    position:relative;
+}
+.PositionImages2{
+    margin-top: 25%;
+    border-radius: 50px;
+    width: 100%;
+}
+
+
+
+.bannerAboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/AboutUsPage/Banner/about-us-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; /* Ensure proper layering */
+    height: 60vh;
+    text-align: center;
+}
+.LogoBox img{
+ 
+    width: 30%;   
+}
+.LogoBox p{
+   
+    color: #fff;
+    font-size: 45px;
+    margin-left: 1%;
+    font-family: "Source Sans 3", serif;
+    MARGIN-TOP: 1%;
+    FONT-WEIGHT: 400;
+    text-transform: uppercase;
+   
+}
+.LogoBox{
+    position: absolute;
+    top: 6%;
+    /* width: 5%; */
+    left: 3rem;
+    display: flex;
+    width: 95%;
+}
+
+.IndiraLegacyHeading{
+    font-size: 4vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 21px;
+
+}
+
+.HistoryHeading{
+    font-size: 2.5VW;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+
+}
+.historypara{
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #FFFF;
+    text-align: left;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.HeadingLefth4{
+    font-size: 2VW;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: right;
+    margin-top: 0;
+    padding: 2vh 2vh 0vh  0vh;
+}
+
+.LegacyparaLeft{
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #FFFF;
+    text-align: right;
+    padding: 0vh 2vh 5vh 0vh;
+    font-weight: 200;
+
+}
+
+.IndiraLegacyImg{
+    width: 100%;
+}
+
+.HeadingRighth4{
+    font-size: 2VW;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    padding: 2vh 0;
+}
+.LegacyparaRight{
+    font-size: 16px;
+    font-family: "Inter", serif;
+    color: #FFFF;
+    text-align: left;
+    padding: 0vh 2vh 5vh 0vh;
+    font-weight: 200;
+
+}
+
+.ullist li{
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-weight: 200;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    list-style-type: square;
+}
+.ChancellorsMessegeh3{
+    font-size: 1.5rem;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: left;
+        margin-top: 0;
+        padding: 10px 15px;
+    
+}
+.Nameh3{
+    font-size: 2rem;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    padding: 10px 15px 0px 15px;
+}
+
+.Designationh6{
+    font-size: 15px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+}
+
+.MemberName{
+    font-size: 1.1rem;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 0px 0px 0px;
+    color: #000000;
+    
+}
+
+.Memberpostion{
+    font-size: 16px;
+    font-family: Anton, serif;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px;
+    font-weight: 100;
+    color: #585858;
+
+}
+
+.IndiraUniversity{
+    font-size:3vw;
+    font-family: Anton, serif;
+    color: #145684;
+    text-align: left;
+    padding: 0PX 15PX;
+
+
+}
+.IndiraUniversityimg{
+    width: 100%;
+    padding: 10PX;
+}
+
+.IndiraSubHeading{
+    font-size: 2VW;
+    font-family: Anton, serif;
+    text-align: left;
+    color: #1B1B1B;
+    padding: 10PX 15PX;
+
+}
+.IndiraUniversitypara{
+    font-size: 18PX;
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #1B1B1B;
+    text-align: left;
+    margin-top: 0px;
+    padding: 5px 15px;
+
+}
+.BrandSlamParaSection{
+    height: 100%;
+    width: 100%;
+    background-color: #145684;
+}
+.BrandSlamHeading{
+    font-size: 3.5vw;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 21px;
+
+}
+.BrandSlamPara{
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0px 40px 0px 0px;
+
+}
+
+.IndiraBrandSlamImg{
+    width: 100%;
+    border-radius: 20%;
+    
+}
+.rightContent {
+    position: relative;
+    padding-left: 16px; 
+  }
+  
+  .rightContent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12rem; 
+    width: 2px; 
+    background-color: #000; 
+  }
+
+.ScrollTextBox{
+    top: 8%;
+    left:0px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    font-family: Anton, serif !important;
+    overflow: hidden;
+   
+  }
+  .ScrollTextBox2{
+    top: 15%;
+    left:0px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    font-family: Anton, serif !important;
+    overflow: hidden;
+   
+  }
+  
+
+  .ScrollText {
+    width:100%;
+    font-size: 7rem;
+   
+    color:#168DFF;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Anton, serif !important;
+  }
+  
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+    font-family: Anton, serif !important;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left2 20s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 10s;
+    font-family: Anton, serif !important;
+  }
+  .ImgTaritaMam{
+    position: relative;
+  }
+  /* scrolling-left is continuous/repeatly text */
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  @keyframes scrolling-left2 {
+      0% {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+        100% {transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+
+
+@media (max-width: 480px) {
+    .ourInitiativespara {
+        font-size: 16px;
+        font-family: "Inter", serif;
+        color: #000000;
+        text-align: justify;
+        padding: 2vh 0vh 2vh 0vh;
+        line-height: 24px;
+        font-weight: 200;
+    }
+    .ourInitiativesparaBold {
+        font-size: 16px;
+        font-family: "Inter", serif;
+        color: #000000;
+        text-align: justify;
+        padding: 2vh 0vh 2vh 0vh;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    .PositionImages1 {
+        position: unset;
+        top: -35%;
+        left: 2rem;
+        width: 100%;
+        margin-top: 2%;
+    }
+    .PositionImages2 {
+        margin-top: 2%;
+        border-radius: 50px;
+        width: 100%;
+    }
+    .ourInitiativesparaPL {
+        font-size: 16px;
+        font-family: "Inter", serif;
+        color: #000000;
+        text-align: justify;
+        border-left: 2px solid white;
+        padding: 2vh 0vh 2vh 0vh;
+        line-height: 24px;
+        font-weight: 200;
+    }
+    .LogoBox {
+        position: relative;
+        top: 6%;
+        left: 0rem;
+        display: flex;
+        width: 100%;
+    }
+    .LogoBox p {
+        color: #fff;
+        font-size: 45px;
+        margin-left: 1%;
+        font-family: "Source Sans 3", serif;
+        margin-top: 1%;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: none;
+    }
+  
+
+      .LogoBox img {
+        width: 58%;
+        margin-top: 4%;
+    }
+    .bannerAboutUs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: auto;
+        text-align: center;
+    }
+    .VisionMissionHeading {
+        font-size: 22px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 21px;
+    }
+    .VisionHeading {
+        font-size: 20px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 21px;
+    }
+    .visionimg {
+        padding: 10px;
+        width: 100%;
+        border-right: unset;
+    }
+    .visionpara {
+        font-size: 14px;
+        padding: 10px;
+        font-family: Inter, serif;
+        color: #fff;
+        text-align: justify;
+        font-weight: 300;
+    }
+    .MisionUllist {
+        color: #fff;
+        font-size: 14px;
+        padding: 20px;
+        font-family: Inter, serif;
+        font-weight: 300;
+        line-height: 25px;
+        margin-bottom: 10px;
+        color: #fff;
+        list-style-type: square;
+    }
+    .misionimg {
+        padding: 10px;
+        width: 100%;
+        border-left: unset;
+    }
+    .visionMisionpara {
+        font-family: Inter, serif;
+        color: #fff;
+        text-align: justify;
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: 300;
+    }
+    .AboutHeading {
+        font-size: 22px;
+        font-family: Anton, serif;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 7%;
+        color: #fff;
+    }
+    .IndiraLegacyHeading {
+        font-size: 22px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 21px;
+    }
+    .HistoryHeading {
+        font-size: 20px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+    }
+    .historypara {
+        font-size: 14px;
+        font-family: Inter, serif;
+        color: #fff;
+        text-align: justify;
+        font-weight: 300;
+        padding: 10px 0;
+    }
+    .HeadingLefth4 {
+        font-size: 22px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        padding: 0vh 0vh 0 0;
+    }
+    .LegacyparaLeft {
+        font-size: 15px;
+        font-family: Inter, serif;
+        color: #fff;
+        text-align: justify;
+        padding: 0 0vh 0vh 0;
+        font-weight: 200;
+    }
+    .IndiraLegacyImg {
+        width: 100%;
+        padding: 1vh 0px;
+    }
+    .OurInitiativesHeading{
+        font-size: 20px;
+        font-family: Anton, serif;
+        color: #145684;
+        text-align: center;
+        margin-top: 0;
+}
+.OurIBFHeading{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+
+}
+.ourInitiativesHeading2{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+}
+.OurIISDHeading{
+    font-size: 22px;
+        font-family: Anton, serif;
+        color: #000000;
+        text-align: center;
+        margin-top: 0;
+        line-height: 30px;
+
+}
+.OurISFHeading{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+}
+.HeadingRighth4{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 2vh 0;
+}
+.BackgroundBlock {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 14vh;
+  }
+
+  .AboutPara{
+    font-size: 14px;
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #fff;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 5px 10px;
+   
+}
+
+
+.ChancellorsMessegeh3{
+    font-size: 20px;
+        font-family: Anton, serif;
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        padding: 10px;
+    
+}
+.ScrollText {
+  
+    font-size: 5rem;
+  
+}
+.Nameh3{
+    font-size: 20px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px 15px 0px 15px;
+}
+
+.Designationh6{
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 0 15px;
+}
+.AboutParaVice {
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #1B1B1B;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 0px 0px;
+}
+.MemberName{
+    font-size: 18px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px 0;
+    color: #000000;
+           min-height: 9px;
+        margin: 0px;
+}
+.Memberpostion{
+    font-size: 16px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px 0;
+    font-weight: 100;
+    color: #585858;
+
+}
+.IndiraUniversity{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #145684;
+    text-align: center;
+
+}
+
+.IndiraSubHeading{
+    font-size: 20px;
+    font-family: Anton, serif;
+    text-align: center;
+    color: #1B1B1B;
+
+}
+.IndiraUniversitypara{
+    font-size: 14PX;
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #1B1B1B;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 5px;
+
+}
+.IndiraUniversityimg{
+    width: 100%;
+    padding: 5PX;
+}
+
+.ScrollTextBox{
+    top: 29%;
+    left:0px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    font-family: Anton, serif !important;
+    overflow: hidden;
+   
+  }
+  .ScrollTextBox2{
+    top: 72%;
+    left:0px;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    font-family: Anton, serif !important;
+    overflow: hidden;
+   
+  }
+  .BrandSlamPara{
+    font-family: Inter, serif !important;
+    font-weight: 300 !important;
+    color: #fff;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 5px;
+
+}
+.BrandSlamHeading{
+    font-size: 22px;
+    font-family: Anton, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 21px;
+
+}
+.rightContent {
+    position: relative;
+    padding-left: 0px; 
+  }
+  
+  .rightContent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0; 
+    width: 2px; 
+    background-color: #000; 
+  }
+
+}

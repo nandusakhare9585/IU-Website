@@ -1,0 +1,17 @@
+/* [project]/app/home/style.module.css [app-client] (css) */
+.style-module__nUETza__container {
+  overflow: hidden;
+}
+
+.style-module__nUETza__section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity .6s, transform .6s;
+}
+
+.style-module__nUETza__section.style-module__nUETza__animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=app_home_style_module_b52d8e.css.map*/

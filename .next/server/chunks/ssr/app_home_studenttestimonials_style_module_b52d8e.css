@@ -1,0 +1,68 @@
+/* [project]/app/home/studenttestimonials/style.module.css [app-client] (css) */
+.style-module__dqz8LW__testimonialSection {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.style-module__dqz8LW__HeadingName {
+  font-size: 4vw;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  line-height: 4vw;
+}
+
+.style-module__dqz8LW__studentpara {
+  font-size: 20px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__dqz8LW__studentName {
+  font-size: 16px;
+  font-family: Anton, serif;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+}
+
+.style-module__dqz8LW__studentimg {
+  width: 20%;
+}
+
+@media (width <= 480px) {
+  .style-module__dqz8LW__HeadingName {
+    font-size: 7vw;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+    line-height: 4vw;
+  }
+
+  .style-module__dqz8LW__studentpara {
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .style-module__dqz8LW__studentimg {
+    width: 18%;
+  }
+
+  .style-module__dqz8LW__studentName {
+    font-size: 14px;
+    font-family: Anton, serif;
+    color: #000;
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=app_home_studenttestimonials_style_module_b52d8e.css.map*/
